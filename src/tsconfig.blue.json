@@ -4,18 +4,16 @@
     "paths": {
       "core/*": ["core/*"]
     },
-    "outDir": "../out-tsc/spec",
+    "outDir": "../out-tsc/app",
     "baseUrl": "./",
-    "types": [
-      "jasmine",
-      "node"
-    ]
+    "module": "es2015",
+    "types": []
   },
-  "files": [
-    "test.ts"
-  ],
   "include": [
-    "**/*.spec.ts",
-    "**/*.d.ts"
+    "blue/**/*",
+    "core/**/*"
+  ],
+  "exclude": [
+    "**/*.spec.ts"
   ]
 }
