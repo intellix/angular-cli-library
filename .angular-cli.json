@@ -63,6 +63,36 @@
         "dev": "blue/environments/environment.ts",
         "prod": "blue/environments/environment.prod.ts"
       }
+    },
+    {
+      "name": "green",
+      "root": "src",
+      "outDir": "dist/green",
+      "assets": [
+        { "glob": "**/*", "input": "green/assets/", "output": "./assets/" },
+        { "glob": "favicon.ico", "input": "green/", "output": "./" }
+      ],
+      "index": "green/index.html",
+      "main": "green/main.ts",
+      "polyfills": "green/polyfills.ts",
+      "test": "test.ts",
+      "tsconfig": "tsconfig.green.json",
+      "testTsconfig": "tsconfig.spec.json",
+      "prefix": "app",
+      "styles": [
+        "green/styles.scss"
+      ],
+      "stylePreprocessorOptions": {
+        "includePaths": [
+          "green/scss"
+        ]
+      },
+      "scripts": [],
+      "environmentSource": "green/environments/environment.ts",
+      "environments": {
+        "dev": "green/environments/environment.ts",
+        "prod": "green/environments/environment.prod.ts"
+      }
     }
   ],
   "e2e": {

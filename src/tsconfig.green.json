@@ -1,0 +1,19 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "core/*": ["core/*"]
+    },
+    "outDir": "../out-tsc/app",
+    "baseUrl": "./",
+    "module": "es2015",
+    "types": []
+  },
+  "include": [
+    "green/**/*",
+    "core/**/*"
+  ],
+  "exclude": [
+    "**/*.spec.ts"
+  ]
+}

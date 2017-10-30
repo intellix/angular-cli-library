@@ -1,0 +1,7 @@
+@import 'variables';
+
+:host {
+  display: block;
+  padding: 1rem;
+  background: lighten($brand-primary, 40%);
+}
