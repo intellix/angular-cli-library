@@ -7,6 +7,4 @@ import 'rxjs/add/operator/map';
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.scss']
 })
-export class FooterComponent {
-  date = timer(1000, 1000).map(() => new Date());
-}
+export class FooterComponent { }
