@@ -14,6 +14,7 @@
     "core/**/*"
   ],
   "exclude": [
-    "**/*.spec.ts"
+    "**/*.spec.ts",
+    "core/core.module.ts"
   ]
 }

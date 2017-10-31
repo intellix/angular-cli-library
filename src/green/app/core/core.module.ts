@@ -5,7 +5,8 @@ import { RouterModule } from '@angular/router';
 import { AppService } from 'core/services/app.service';
 import { HeaderComponent } from 'core/components/header/header.component';
 import { CoreRoutingModule } from 'core/core-routing.module';
-import { SharedModule } from 'core/modules/shared/shared.module';
+
+import { SharedModule } from './modules/shared/shared.module';
 
 @NgModule({
   imports: [
